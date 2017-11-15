@@ -1,0 +1,128 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css?family=Atma|Baloo+Da|Galada|Hind+Siliguri');
+/*font-family: 'Hind Siliguri', sans-serif;*/
+/*font-family: 'Atma', cursive;*/
+/*font-family: 'Baloo Da', cursive;*/
+/*font-family: 'Galada', cursive;*/
+
+
+
+* {
+     outline: 0;
+    /*font-family: 'Hind Siliguri', sans-serif;*/
+    /*font-family: 'Atma', cursive;*/
+    /*font-family: 'Baloo Da', cursive;*/
+    /*font-family: 'Galada', cursive;*/
+
+ }
+body {
+    background-color: #0D0D0D;
+    margin:0;
+    padding:0;
+
+}
+
+
+/*set width*/
+
+.w_higher {
+    width: 100%;
+    margin: auto;
+}
+.w_high {
+    width: 98%;
+    margin: auto;
+}
+.w_medium {
+    width: 96%;
+    margin: auto;
+}
+.w_low {
+    width: 94%;
+    margin: auto;
+}
+.w_verylow {
+    width: 92%;
+    margin: auto;
+}
+
+
+
+
+/*navigation- 01*/
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.sidenav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+        bottom: 0;
+    }
+    ul.sidenav li a {
+        float: left;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+}
+
+
+
+
+
+ /*BACKGROUND COLOR*/
+
+.bg-red{
+    background-color: #c91010 ;
+}
+.bg-yellow{
+    background-color: #f2d042 ;
+}
+.bg-green{
+    background-color: #319a2d ;
+}
+.bg-blue{
+    background-color: #1d61ae ;
+}
+.bg-violet{
+    background-color: #6c086d ;
+}
+.bg-white{
+    background-color: white;
+}
+
